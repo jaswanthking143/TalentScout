@@ -1,0 +1,95 @@
+2026-08-06 15:11:21,530 ERROR data_loader Data file not found: data/sample_candidates.json
+2026-08-06 15:11:21,530 ERROR trendscout.gui Failed to load data: File not found: data/sample_candidates.json
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\python project\gui_tkinter.py", line 118, in load_data
+    self.profiles = load_profiles_from_json(path)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HP\OneDrive\Desktop\python project\data_loader.py", line 15, in load_profiles_from_json
+    raise TrendScoutError(f"File not found: {path}")
+utils.TrendScoutError: File not found: data/sample_candidates.json
+2026-08-06 15:12:20,935 INFO data_loader Loaded 4 profiles from C:/Users/HP/OneDrive/Desktop/python project/sample_candidates.json
+2026-08-06 15:12:20,935 DEBUG data_loader Converted profiles to DataFrame with shape (4, 10)
+2026-08-06 15:12:20,935 INFO trendscout.gui Loaded 4 profiles
+2026-08-06 15:12:23,794 DEBUG analyzer Computed normalized indicators
+2026-08-06 15:12:23,810 INFO recommender Computed suitability scores and ranked 4 profiles
+2026-08-06 15:12:23,950 INFO trendscout.gui Analysis complete for role Senior Data Analyst
+2026-08-06 15:14:33,342 DEBUG analyzer Computed normalized indicators
+2026-08-06 15:14:33,346 INFO recommender Computed suitability scores and ranked 4 profiles
+2026-08-06 15:14:33,529 INFO trendscout.gui Analysis complete for role Python Developer
+2026-08-06 15:15:00,144 DEBUG analyzer Computed normalized indicators
+2026-08-06 15:15:00,147 INFO recommender Computed suitability scores and ranked 4 profiles
+2026-08-06 15:15:00,263 INFO trendscout.gui Analysis complete for role System Analyst
+2026-08-06 15:17:46,257 ERROR data_loader Data file not found: data/sample_candidates.json
+2026-08-06 15:18:33,986 ERROR data_loader Data file not found: data/sample_candidates.json
+2026-08-06 15:19:32,954 INFO data_loader Loaded 4 profiles from sample_candidates.json
+2026-08-06 15:19:32,967 DEBUG data_loader Converted profiles to DataFrame with shape (4, 10)
+2026-08-06 15:19:32,990 DEBUG analyzer Computed normalized indicators
+2026-08-06 15:19:33,002 INFO recommender Computed suitability scores and ranked 4 profiles
+2026-08-06 15:19:33,003 INFO __main__ Top candidates for Senior Data Analyst:
+2026-08-06 15:19:33,005 INFO __main__   1. Amminiboyina Siva Pradeep  (id=e101) score=1.000 match=0.67
+2026-08-06 15:19:33,005 INFO __main__   2. Chapala Jaswanth (id=c001) score=0.917 match=1.00
+2026-08-06 15:19:33,005 INFO __main__   3. John (id=e102) score=0.604 match=1.00
+2026-08-06 15:19:33,006 INFO __main__   4. Kalle Vamsi (id=c002) score=0.000 match=0.33
+2026-08-06 15:19:33,007 INFO __main__ Found 2 candidates with suitability >= 0.8
+2026-08-06 15:19:33,020 INFO report Saved report to output\report.json and output\report.csv
+2026-08-06 15:19:33,020 INFO __main__ Generated report files: {'json': 'output\\report.json', 'csv': 'output\\report.csv', 'summary': {'role': 'Senior Data Analyst', 'required_skills': ['python', 'sql', 'pandas'], 'candidate_count': 4, 'top_candidates': [{'id': 'e101', 'name': 'Amminiboyina Siva Pradeep ', 'type': 'employee', 'suitability_score': 1.0, 'skill_match': 0.6666666666666666, 'avg_performance_score': 4.766666666666667, 'years_experience': 7.0, 'achievement_impact': 17.0}, {'id': 'c001', 'name': 'Chapala Jaswanth', 'type': 'candidate', 'suitability_score': 0.9169580419580418, 'skill_match': 1.0, 'avg_performance_score': 4.466666666666667, 'years_experience': 5.0, 'achievement_impact': 14.0}, {'id': 'e102', 'name': 'John', 'type': 'employee', 'suitability_score': 0.6037296037296036, 'skill_match': 1.0, 'avg_performance_score': 4.133333333333333, 'years_experience': 4.0, 'achievement_impact': 0.0}, {'id': 'c002', 'name': 'Kalle Vamsi', 'type': 'candidate', 'suitability_score': 0.0, 'skill_match': 0.3333333333333333, 'avg_performance_score': 3.9, 'years_experience': 3.0, 'achievement_impact': 7.0}]}}
+2026-08-06 15:19:57,633 ERROR data_loader Data file not found: data/sample_candidates.json
+2026-08-06 15:19:57,638 ERROR trendscout.gui Failed to load data: File not found: data/sample_candidates.json
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\python project\gui_tkinter.py", line 118, in load_data
+    self.profiles = load_profiles_from_json(path)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HP\OneDrive\Desktop\python project\data_loader.py", line 15, in load_profiles_from_json
+    raise TrendScoutError(f"File not found: {path}")
+utils.TrendScoutError: File not found: data/sample_candidates.json
+2026-08-06 15:20:11,022 INFO data_loader Loaded 4 profiles from C:/Users/HP/OneDrive/Desktop/python project/sample_candidates.json
+2026-08-06 15:20:11,025 DEBUG data_loader Converted profiles to DataFrame with shape (4, 10)
+2026-08-06 15:20:11,025 INFO trendscout.gui Loaded 4 profiles
+2026-08-06 15:20:13,383 DEBUG analyzer Computed normalized indicators
+2026-08-06 15:20:13,389 INFO recommender Computed suitability scores and ranked 4 profiles
+2026-08-06 15:20:13,513 INFO trendscout.gui Analysis complete for role Senior Data Analyst
+2026-08-06 15:22:00,881 ERROR data_loader Data file not found: data/sample_candidates.json
+2026-08-06 15:22:00,881 ERROR trendscout.gui Failed to load data: File not found: data/sample_candidates.json
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\python project\gui_tkinter.py", line 118, in load_data
+    self.profiles = load_profiles_from_json(path)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HP\OneDrive\Desktop\python project\data_loader.py", line 15, in load_profiles_from_json
+    raise TrendScoutError(f"File not found: {path}")
+utils.TrendScoutError: File not found: data/sample_candidates.json
+2026-08-06 15:22:08,075 INFO data_loader Loaded 4 profiles from C:/Users/HP/OneDrive/Desktop/python project/sample_candidates.json
+2026-08-06 15:22:08,075 DEBUG data_loader Converted profiles to DataFrame with shape (4, 10)
+2026-08-06 15:22:08,075 INFO trendscout.gui Loaded 4 profiles
+2026-08-06 15:22:12,202 DEBUG analyzer Computed normalized indicators
+2026-08-06 15:22:12,207 INFO recommender Computed suitability scores and ranked 4 profiles
+2026-08-06 15:22:12,328 INFO trendscout.gui Analysis complete for role Senior Data Analyst
+2026-08-06 15:22:46,647 INFO report Saved report to output\report.json and output\report.csv
+2026-08-06 15:23:58,767 DEBUG analyzer Computed normalized indicators
+2026-08-06 15:23:58,770 INFO recommender Computed suitability scores and ranked 4 profiles
+2026-08-06 15:23:58,918 INFO trendscout.gui Analysis complete for role Senior Data Analyst
+2026-08-06 15:24:00,299 DEBUG analyzer Computed normalized indicators
+2026-08-06 15:24:00,304 INFO recommender Computed suitability scores and ranked 4 profiles
+2026-08-06 15:24:00,402 INFO trendscout.gui Analysis complete for role Senior Data Analyst
+2026-08-06 15:24:08,706 INFO data_loader Loaded 4 profiles from C:/Users/HP/OneDrive/Desktop/python project/sample_candidates.json
+2026-08-06 15:24:08,709 DEBUG data_loader Converted profiles to DataFrame with shape (4, 10)
+2026-08-06 15:24:08,709 INFO trendscout.gui Loaded 4 profiles
+2026-08-06 15:24:10,373 DEBUG analyzer Computed normalized indicators
+2026-08-06 15:24:10,378 INFO recommender Computed suitability scores and ranked 4 profiles
+2026-08-06 15:24:10,496 INFO trendscout.gui Analysis complete for role Senior Data Analyst
+2026-08-06 15:24:55,902 INFO report Saved report to output\report.json and output\report.csv
+2026-08-06 15:26:10,270 ERROR data_loader Data file not found: data/sample_candidates.json
+2026-08-06 15:26:10,270 ERROR trendscout.gui Failed to load data: File not found: data/sample_candidates.json
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\python project\gui_tkinter.py", line 118, in load_data
+    self.profiles = load_profiles_from_json(path)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HP\OneDrive\Desktop\python project\data_loader.py", line 15, in load_profiles_from_json
+    raise TrendScoutError(f"File not found: {path}")
+utils.TrendScoutError: File not found: data/sample_candidates.json
+2026-08-06 15:26:19,100 INFO data_loader Loaded 4 profiles from C:/Users/HP/OneDrive/Desktop/python project/sample_candidates.json
+2026-08-06 15:26:19,106 DEBUG data_loader Converted profiles to DataFrame with shape (4, 10)
+2026-08-06 15:26:19,106 INFO trendscout.gui Loaded 4 profiles
+2026-08-06 15:26:26,711 DEBUG analyzer Computed normalized indicators
+2026-08-06 15:26:26,716 INFO recommender Computed suitability scores and ranked 4 profiles
+2026-08-06 15:26:26,847 INFO trendscout.gui Analysis complete for role Senior Data Analyst
+2026-08-06 15:27:02,590 INFO report Saved report to output\report.json and output\report.csv
