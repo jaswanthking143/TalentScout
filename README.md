@@ -13,10 +13,10 @@ Generate JSON/CSV talent analysis report
 Logging and exception handling
 Requirements
 
-Python 3.9+
-pandas
-tkinter
-matplotlib
+-Python 3.9+
+-pandas
+-tkinter
+-matplotlib
 Quick start
 
 Create a virtualenv and install dependencies: python -m venv venv source venv/bin/activate # or venv\Scripts\activate on Windows pip install -r requirements.txt
