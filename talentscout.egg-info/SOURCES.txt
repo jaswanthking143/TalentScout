@@ -1,0 +1,16 @@
+analyzer.py
+app.py
+excel_export.py
+exceptions.py
+gui.py
+logger_config.py
+main.py
+models.py
+pdf_export.py
+pdf_parser.py
+pyproject.toml
+talentscout.egg-info/PKG-INFO
+talentscout.egg-info/SOURCES.txt
+talentscout.egg-info/dependency_links.txt
+talentscout.egg-info/requires.txt
+talentscout.egg-info/top_level.txt

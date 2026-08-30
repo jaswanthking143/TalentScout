@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: talentscout
+Version: 1.0.0
+Summary: TalentScout Resume Intake & Role-Fit Analyzer
+Requires-Python: >=3.12
+Requires-Dist: Flask
+Requires-Dist: werkzeug
+Requires-Dist: reportlab
+Requires-Dist: pdfplumber
+Requires-Dist: openpyxl

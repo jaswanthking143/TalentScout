@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.vercel/
+build/
+talentscout.egg-info/
+logs/
+outputs/
+uploads/
+.git/

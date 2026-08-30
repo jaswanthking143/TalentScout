@@ -556,3 +556,8 @@
 2026-08-29 19:30:43 | INFO     | pdf_parser | Parsing resume: 05_Arjun_Varma_DevOps_Engineer.pdf
 2026-08-29 19:30:43 | DEBUG    | pdf_parser | Parsed candidate: Arjun Varma | skills=15
 2026-08-29 19:30:50 | INFO     | analyzer | Analyzed 5 candidates for role 'Python Developer'
+2026-08-30 13:24:55 | INFO     | pdf_parser | Parsing resume: jaswanths_resume.pdf
+2026-08-30 13:24:55 | DEBUG    | pdf_parser | Parsed candidate: Chapala Jaswanth | skills=32
+2026-08-30 13:25:15 | INFO     | analyzer | Analyzed 1 candidates for role 'Python Developer'
+2026-08-30 13:25:21 | INFO     | analyzer | Analyzed 1 candidates for role 'Python Developer'
+2026-08-30 13:25:46 | INFO     | analyzer | Analyzed 1 candidates for role 'Python Developer'

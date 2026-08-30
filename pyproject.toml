@@ -1,0 +1,25 @@
+[tool.vercel]
+entrypoint = "app:app"
+
+[project]
+name = "talentscout"
+version = "1.0.0"
+description = "TalentScout Resume Intake & Role-Fit Analyzer"
+requires-python = ">=3.12"
+
+dependencies = [
+    "Flask",
+    "werkzeug",
+    "reportlab",
+    "pdfplumber",
+    "openpyxl",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = []
+py-modules = ["app", "analyzer", "excel_export", "exceptions", "gui", "logger_config", "main", "models", "pdf_export", "pdf_parser"]
+include-package-data = true
