@@ -1,5 +1,0 @@
-id,type,name,years_experience,skills,avg_performance_score,achievement_impact,projects_delivered,on_time_rate,certifications,norm_perf,norm_experience,norm_achievements,norm_projects,norm_on_time,skill_match,raw_suitability,suitability_score
-c002,candidate,Kalle Vamsi,12.0,"['python', 'ml', 'sklearn']",7.8999999999999995,7,15,0.5,['python certificate from Google'],1.0,1.0,0.4117647058823529,1.0,0.0,0.3333333333333333,0.6205882352941177,1.0
-c001,candidate,Chapala Jaswanth,5.0,"['python', 'data-analysis', 'sql', 'pandas']",4.466666666666667,14,8,0.95,['aws-data-analytics'],0.0884955752212391,0.0,0.8235294117647058,0.2222222222222222,0.9374999999999999,1.0,0.564600143154607,0.5601484678526573
-e102,employee,John,6.0,"['sql', 'pandas', 'python']",4.133333333333333,0,6,0.92,['Data Science Professional Certificate'],0.0,0.14285714285714285,0.0,0.0,0.8750000000000001,1.0,0.5151785714285715,0.17188458504951395
-e101,employee,Amminiboyina Siva Pradeep ,7.0,"['python', 'data-engineering', 'sql', 'airflow']",4.766666666666667,17,12,0.98,['gcp-data-engineer'],0.1681415929203541,0.2857142857142857,1.0,0.6666666666666666,1.0,0.6666666666666666,0.49329962073324907,0.0
